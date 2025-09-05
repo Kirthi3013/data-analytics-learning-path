@@ -1,0 +1,22 @@
+ Day 1 - Learning Progress
+
+Topics Covered
+
+1. Introduction to SQL
+   - Learned about the purpose of SQL in data management.
+   - Understood how SQL is used to interact with databases.
+   - Basic commands: `CREATE`, `INSERT`, `SELECT`.
+
+2. Basics in Excel
+   - Introduction to Excel interface (rows, columns, cells).
+   - Data entry and formatting.
+   - Simple formulas and functions.
+
+3. Creating Multiple Sheets in Excel
+   - How to add, rename, and delete sheets.
+   - Navigating between multiple sheets.
+   - Linking data across sheets.
+
+
+ Summary
+On Day 1, I explored the fundamentals of SQL, gaining an understanding of its role in managing and querying data. I also revised Excel basics, focusing on data handling and simple formulas. Additionally, I learned how to manage multiple sheets in Excel, which is useful for organizing data efficiently.
