@@ -1,0 +1,36 @@
+Day 4 - Learning Progress (25-Aug-25)
+
+
+    ==>Realtime example with human_life database
+ 	GodsTable
+ 	human worry table
+ 	dreams table
+ 	work table
+
+CODE:
+
+use human_life;
+
+create table God (
+God_id int auto_increment primary key,
+God_name varchar (50) ,
+Power varchar(50)
+);
+create table human_worry(
+worry_id int auto_increment primary key,
+Description varchar(50),
+God_id int ,
+foreign key (God_id) references God(god_id)
+);
+create table Dreams (
+DM_id int auto_increment primary key,
+DeadLine_years date,
+Hard_work varchar(20)
+);
+create table Work(
+Work_id int auto_increment primary key,
+Passion varchar (50),
+Working_hours int,
+DM_id int,
+foreign key (DM_id) references Dreams(DM_id)
+);

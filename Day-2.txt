@@ -1,0 +1,31 @@
+Day 2 - Learning Progress (21-Aug-25)
+
+
+==> Installation of MySQL
+
+Installed MySQL successfully on my system.
+
+Explored MySQL Workbench and the command-line client.
+
+Checked installation with mysql -V to confirm everything worked.
+
+==> Creating Tables in MySQL
+
+Learned how to create tables using SQL commands.
+
+Understood common data types like INT, VARCHAR, and constraints such as PRIMARY KEY.
+
+Example:
+
+CREATE TABLE students (
+    student_id INT PRIMARY KEY,
+    student_name VARCHAR(50),
+    age INT,
+    course VARCHAR(50)
+);
+
+
+
+Summary:
+
+Today, I installed MySQL and practiced creating tables. I learned how to use different data types and set primary keys, which gave me a clear idea of how database structures are built.
